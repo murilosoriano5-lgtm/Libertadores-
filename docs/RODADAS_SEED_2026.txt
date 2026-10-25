@@ -1,0 +1,160 @@
+
+RODADA 1
+  Boca Juniors x Peñarol
+  LDU x Fluminense
+  Libertad x Nacional
+  Independiente Medellín x Sporting Cristal
+  Caracas x Independiente Rivadavia
+  Real España x Universidad Central
+  Inter Miami x Club América
+  Independiente del Valle x Corinthians
+  Universidad Católica x Lanús
+  Bolívar x Palmeiras
+  Estudiantes x Always Ready
+  Alajuelense x Flamengo
+  Cerro Porteño x Mirassol
+  Coquimbo Unido x Universitario
+  Rosario Central x Vancouver Whitecaps
+  Cruz Azul x Cruzeiro
+  Santa Fe x Toluca
+  Nashville x Platense
+
+RODADA 2
+  Palmeiras x Boca Juniors
+  Nacional x Corinthians
+  Platense x Coquimbo Unido
+  Always Ready x Mirassol
+  Vancouver Whitecaps x Nashville
+  Club América x Real España
+  Cruz Azul x Alajuelense
+  Flamengo x Universidad Católica
+  Lanús x Libertad
+  LDU x Bolívar
+  Universitario x Estudiantes
+  Peñarol x Caracas
+  Santa Fe x Independiente del Valle
+  Toluca x Fluminense
+  Independiente Rivadavia x Cerro Porteño
+  Independiente Medellín x Cruzeiro
+  Inter Miami x Rosario Central
+  Sporting Cristal x Universidad Central
+
+RODADA 3
+  Estudiantes x LDU
+  Independiente del Valle x Palmeiras
+  Rosario Central x Universidad Católica
+  Nashville x Toluca
+  Nacional x Flamengo
+  Libertad x Fluminense
+  Lanús x Independiente Medellín
+  Boca Juniors x Mirassol
+  Vancouver Whitecaps x Peñarol
+  Bolívar x Santa Fe
+  Cruzeiro x Independiente Rivadavia
+  Universitario x Platense
+  Corinthians x Inter Miami
+  Universidad Central x Cerro Porteño
+  Caracas x Club América
+  Coquimbo Unido x Cruz Azul
+  Real España x Always Ready
+  Alajuelense x Sporting Cristal
+
+RODADA 4
+  Fluminense x Estudiantes
+  Bolívar x Universitario
+  Palmeiras x Rosario Central
+  Boca Juniors x Cruzeiro
+  Flamengo x Santa Fe
+  Independiente Rivadavia x Peñarol
+  Lanús x Real España
+  LDU x Toluca
+  Club América x Independiente del Valle
+  Universidad Católica x Caracas
+  Corinthians x Sporting Cristal
+  Mirassol x Libertad
+  Cerro Porteño x Alajuelense
+  Nashville x Nacional
+  Platense x Inter Miami
+  Always Ready x Vancouver Whitecaps
+  Cruz Azul x Independiente Medellín
+  Universidad Central x Coquimbo Unido
+
+RODADA 5
+  Flamengo x Independiente del Valle
+  Peñarol x Lanús
+  Cerro Porteño x Bolívar
+  Sporting Cristal x Platense
+  Alajuelense x Vancouver Whitecaps
+  Universidad Central x Cruz Azul
+  Estudiantes x Nacional
+  Fluminense x Universitario
+  Independiente Medellín x Palmeiras
+  Real España x Boca Juniors
+  Inter Miami x LDU
+  Libertad x Coquimbo Unido
+  Santa Fe x Rosario Central
+  Always Ready x Universidad Católica
+  Caracas x Corinthians
+  Cruzeiro x Nashville
+  Toluca x Mirassol
+  Club América x Independiente Rivadavia
+
+RODADA 6
+  Lanús x Flamengo
+  Corinthians x Rosario Central
+  Cruzeiro x Cerro Porteño
+  Independiente Rivadavia x Always Ready
+  Independiente del Valle x Platense
+  Caracas x Boca Juniors
+  Sporting Cristal x Estudiantes
+  Mirassol x LDU
+  Coquimbo Unido x Fluminense
+  Peñarol x Cruz Azul
+  Nashville x Palmeiras
+  Libertad x Real España
+  Bolívar x Toluca
+  Universitario x Universidad Central
+  Nacional x Club América
+  Vancouver Whitecaps x Universidad Católica
+  Independiente Medellín x Alajuelense
+  Inter Miami x Santa Fe
+
+RODADA 7
+  Universidad Católica x Libertad
+  Universitario x Cruzeiro
+  Mirassol x Santa Fe
+  Coquimbo Unido x Independiente Medellín
+  Toluca x Inter Miami
+  Cerro Porteño x Boca Juniors
+  Rosario Central x Peñarol
+  Corinthians x LDU
+  Palmeiras x Sporting Cristal
+  Platense x Flamengo
+  Independiente del Valle x Nashville
+  Fluminense x Club América
+  Universidad Central x Lanús
+  Cruz Azul x Estudiantes
+  Nacional x Always Ready
+  Alajuelense x Bolívar
+  Independiente Rivadavia x Real España
+  Vancouver Whitecaps x Caracas
+
+RODADA 8
+  Santa Fe x Caracas
+  Peñarol x Cerro Porteño
+  Cruzeiro x Independiente del Valle
+  LDU x Coquimbo Unido
+  Fluminense x Independiente Rivadavia
+  Always Ready x Lanús
+  Flamengo x Universidad Central
+  Palmeiras x Alajuelense
+  Boca Juniors x Inter Miami
+  Estudiantes x Vancouver Whitecaps
+  Rosario Central x Independiente Medellín
+  Sporting Cristal x Bolívar
+  Platense x Nacional
+  Universidad Católica x Cruz Azul
+  Club América x Libertad
+  Real España x Corinthians
+  Toluca x Universitario
+  Mirassol x Nashville

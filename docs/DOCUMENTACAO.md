@@ -16,3 +16,8 @@ Gols ~ Poisson, com média 1,45·e^d (mandante) e 1,15·e^-d (visitante), onde `
 - Listas de vagas usadas como informadas; Flamengo e Lanús ficam nos potes como você definiu.
 - Vancouver Whitecaps entra com país `CAN` (Canadá) e Inter Miami/Nashville como `USA`; restrição de país só impede mesmo código.
 - Nomes ajustados: Peñarol, Platense, Independiente Rivadavia, Coquimbo Unido, Universitario.
+
+## 5. Divisão em rodadas (`schedule.py`)
+- Cada jogo é uma "aresta" entre dois times; uma rodada é um conjunto de jogos em que nenhum time repete (coloração de arestas com 8 cores). Usamos backtracking que escolhe sempre o jogo com menos rodadas possíveis, com limite de passos e reinício.
+- Como as 8 rodadas podem ser embaralhadas, uma busca local escolhe a ordem com menos sequências de 3+ jogos seguidos em casa ou fora.
+- Rodar 20 divisões diferentes e ficar com a melhor leva poucos segundos. Não é garantido zerar as sequências longas.

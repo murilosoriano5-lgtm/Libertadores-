@@ -13,6 +13,7 @@ Simulador da fase de liga da Libertadores no **formato suíço**: 36 times, 4 po
 ## Uso
 ```bash
 python3 -m libertaforss draw --seed 1       # jogos de cada time
+python3 -m libertaforss rounds --seed 1     # jogos divididos em 8 rodadas
 python3 -m libertaforss simulate --seed 1   # resultados e tabela
 python3 -m unittest discover -s tests       # testes
 ```
@@ -23,6 +24,7 @@ Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio
 |---|---|
 | `libertaforss/teams.py` | Times, países e potes |
 | `libertaforss/draw.py` | Sorteio com restrições (backtracking) |
+| `libertaforss/schedule.py` | Divisão em 8 rodadas de 18 jogos |
 | `libertaforss/simulate.py` | Gols (Poisson) e tabela |
 | `tests/test_draw.py` | Valida as regras do sorteio |
 | `docs/` | Documentação detalhada e material de estudo |
