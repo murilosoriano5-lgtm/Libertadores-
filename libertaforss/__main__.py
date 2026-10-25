@@ -1,7 +1,7 @@
 import argparse
 
 from .draw import generate_fixtures
-from .history import describe, head_to_head, load_history
+from .history import all_time_ranking, describe, head_to_head, load_history
 from .schedule import split_rounds
 from .simulate import simulate
 from .teams import TEAMS
@@ -9,10 +9,16 @@ from .teams import TEAMS
 
 def main():
     ap = argparse.ArgumentParser(prog="libertaforss")
-    ap.add_argument("command", choices=["draw", "rounds", "simulate", "h2h"])
+    ap.add_argument("command", choices=["draw", "rounds", "simulate", "h2h", "ranking"])
     ap.add_argument("--seed", type=int, default=None)
     ap.add_argument("teams", nargs="*", help="h2h: os dois times")
     args = ap.parse_args()
+    if args.command == "ranking":
+        print(f"{'#':>2} {'Time':<26}{'J':>4}{'V':>4}{'E':>4}{'D':>4}{'GP':>5}{'GC':>5}{'SG':>5}{'Pts':>5}{'Tít':>4}{'Vice':>5}")
+        for i, r in enumerate(all_time_ranking(load_history()), 1):
+            print(f"{i:>2} {r['team']:<26}{r['j']:>4}{r['v']:>4}{r['e']:>4}{r['d']:>4}{r['gp']:>5}{r['gc']:>5}"
+                  f"{r['sg']:>5}{r['pts']:>5}{r['titulos']:>4}{r['vices']:>5}")
+        return
     if args.command == "h2h":
         a, b = args.teams
         played, wins, goals = head_to_head(a, b, load_history())

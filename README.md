@@ -18,6 +18,7 @@ python3 -m libertaforss draw --seed 1       # jogos de cada time
 python3 -m libertaforss rounds --seed 1     # jogos divididos em 8 rodadas
 python3 -m libertaforss simulate --seed 1   # resultados e tabela
 python3 -m libertaforss h2h Palmeiras Toluca  # histórico de confrontos
+python3 -m libertaforss ranking             # ranking histórico (todas as edições)
 python3 -m unittest discover -s tests       # testes
 ```
 Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio.
@@ -44,6 +45,7 @@ Campeão: **Palmeiras** 2x1 Toluca (final). A tabela da fase de liga foi conferi
 - **PR = prorrogação** (coluna `prorrogacao`).
 - **Finais têm sede única** (coluna `sede`); a primeira, 2026, foi em **Montevidéu**.
 - Jogo decidido nos pênaltis conta como empate no resumo; os pênaltis ficam em colunas à parte.
+- **Ranking histórico** (`ranking`): soma todas as edições do CSV. Critério: pontos (3/1/0) > saldo > gols pró > nome. Mostra também títulos e vices (calculados pelas finais; pênaltis desempatam).
 - Nova edição: crie `data/edicao_AAAA_resultados.txt` e `data/edicao_AAAA_mata_mata.txt`, inclua a sede em `FINAL_VENUES` e rode `python3 tools/gerar_historico.py 2026 AAAA`.
 
 ## Pendente / a definir

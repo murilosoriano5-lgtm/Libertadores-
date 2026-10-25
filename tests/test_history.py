@@ -1,6 +1,6 @@
 import unittest
 
-from libertaforss.history import head_to_head, load_history
+from libertaforss.history import all_time_ranking, head_to_head, load_history
 
 
 class HistoryTest(unittest.TestCase):
@@ -15,6 +15,14 @@ class HistoryTest(unittest.TestCase):
         # pênaltis são guardados à parte; o placar do jogo continua sendo o dos 90'/120'
         pens = [g for g in games if g["penaltis_m"]]
         self.assertEqual(len(pens), 4)
+
+    def test_all_time_ranking(self):
+        ranking = all_time_ranking(load_history())
+        self.assertEqual(len(ranking), 36)
+        self.assertEqual(sum(r["j"] for r in ranking), 2 * 173)
+        by_team = {r["team"]: r for r in ranking}
+        self.assertEqual((by_team["Palmeiras"]["titulos"], by_team["Toluca"]["vices"]), (1, 1))
+        self.assertEqual(sum(r["titulos"] for r in ranking), 1)
 
 
 if __name__ == "__main__":

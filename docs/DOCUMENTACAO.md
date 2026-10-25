@@ -34,3 +34,4 @@ Gols ~ Poisson, com média 1,45·e^d (mandante) e 1,15·e^-d (visitante), onde `
 - `head_to_head(a, b, games)` filtra os jogos entre os dois times (em qualquer mando) e soma vitórias, empates e gols. Pênaltis não alteram o placar.
 - `tools/gerar_historico.py` converte os arquivos de texto de cada edição, normalizando nomes (ex.: "Penarol" vira "Peñarol").
 - A sede da final é um dado por edição (`FINAL_VENUES`). 2026: Montevidéu.
+- `all_time_ranking(games)` acumula J/V/E/D/gols/pontos por time em todos os jogos do CSV (liga e mata-mata). Títulos e vices vêm da fase "Final". O critério de ordenação é uma escolha de projeto e pode mudar (ex.: títulos primeiro).
