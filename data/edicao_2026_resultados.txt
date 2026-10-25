@@ -1,0 +1,152 @@
+RODADA 1
+Boca Juniors 2x1 Peñarol
+LDU 3x1 Fluminense
+Libertad 1x1 Nacional
+Independiente Medellín 2x0 Sporting Cristal
+Caracas 1x2 Independiente Rivadavia
+Real España 2x1 Universidad Central
+Inter Miami 1x1 Club América
+Independiente del Valle 2x1 Corinthians
+Universidad Católica 1x1 Lanús
+Bolívar 1x1 Palmeiras
+Estudiantes 3x0 Always Ready
+Alajuelense 1x1 Flamengo
+Cerro Porteño 2x1 Mirassol
+Coquimbo Unido 1x0 Universitario
+Rosario Central 3x1 Vancouver Whitecaps
+Cruz Azul 2x1 Cruzeiro
+Santa Fe 1x2 Toluca
+Nashville 2x2 Platense
+RODADA 2
+Palmeiras 1x0 Boca Juniors
+Nacional 1x1 Corinthians
+Platense 2x1 Coquimbo Unido
+Always Ready 2x0 Mirassol
+Vancouver Whitecaps 2x2 Nashville
+Club América 4x0 Real España
+Cruz Azul 3x1 Alajuelense
+Flamengo 2x0 Universidad Católica
+Lanús 1x0 Libertad
+LDU 3x3 Bolívar
+Universitario 1x1 Estudiantes
+Peñarol 2x0 Caracas
+Santa Fe 1x1 Independiente del Valle
+Toluca 2x1 Fluminense
+Independiente Rivadavia 1x1 Cerro Porteño
+Independiente Medellín 1x2 Cruzeiro
+Inter Miami 1x1 Rosario Central
+Sporting Cristal 2x2 Universidad Central
+RODADA 3
+Estudiantes 1x0 LDU
+Independiente del Valle 2x2 Palmeiras
+Rosario Central 1x1 Universidad Católica
+Nashville 2x2 Toluca
+Nacional 1x1 Flamengo
+Libertad 1x2 Fluminense
+Lanús 1x0 Independiente Medellín
+Boca Juniors 2x0 Mirassol
+Vancouver Whitecaps 2x0 Peñarol
+Bolívar 2x1 Santa Fe
+Cruzeiro 2x0 Independiente Rivadavia
+Universitario 1x1 Platense
+Corinthians 1x0 Inter Miami
+Universidad Central 1x3 Cerro Porteño
+Caracas 0x2 Club América
+Coquimbo Unido 1x2 Cruz Azul
+Real España 2x0 Always Ready
+Alajuelense 1x0 Sporting Cristal
+RODADA 4
+Fluminense 3x2 Estudiantes
+Bolívar 3x1 Universitario
+Palmeiras 2x0 Rosario Central
+Boca Juniors 1x1 Cruzeiro
+Flamengo 4x0 Santa Fe
+Independiente Rivadavia 2x1 Peñarol
+Lanús 2x0 Real España
+LDU 2x3 Toluca
+Club América 1x1 Independiente del Valle
+Universidad Católica 2x1 Caracas
+Corinthians 3x1 Sporting Cristal
+Mirassol 2x0 Libertad
+Cerro Porteño 4x2 Alajuelense
+Nashville 2x3 Nacional
+Platense 2x2 Inter Miami
+Always Ready 6x1 Vancouver Whitecaps
+Cruz Azul 2x1 Independiente Medellín
+Universidad Central 1x1 Coquimbo Unido
+RODADA 5
+Flamengo 3x0 Independiente del Valle
+Peñarol 2x1 Lanús
+Cerro Porteño 3x1 Bolívar
+Sporting Cristal 1x2 Platense
+Alajuelense 2x3 Vancouver Whitecaps
+Universidad Central 2x5 Cruz Azul
+Estudiantes 2x0 Nacional
+Fluminense 2x0 Universitario
+Independiente Medellín 1x3 Palmeiras
+Real España 1x2 Boca Juniors
+Inter Miami 2x1 LDU
+Libertad 1x0 Coquimbo Unido
+Santa Fe 1x0 Rosario Central
+Always Ready 3x2 Universidad Católica
+Caracas 1x1 Corinthians
+Cruzeiro 3x0 Nashville
+Toluca 3x0 Mirassol
+Club América 2x0 Independiente Rivadavia
+RODADA 6
+Lanús 1x1 Flamengo
+Corinthians 1x1 Rosario Central
+Cruzeiro 2x0 Cerro Porteño
+Independiente Rivadavia 4x1 Always Ready
+Independiente del Valle 3x1 Platense
+Caracas 1x1 Boca Juniors
+Sporting Cristal 2x2 Estudiantes
+Mirassol 2x0 LDU
+Coquimbo Unido 1x2 Fluminense
+Peñarol 1x0 Cruz Azul
+Nashville 1x4 Palmeiras
+Libertad 2x0 Real España
+Bolívar 3x0 Toluca
+Universitario 2x0 Universidad Central
+Nacional 1x1 Club América
+Vancouver Whitecaps 2x2 Universidad Católica
+Independiente Medellín 2x1 Alajuelense
+Inter Miami 1x0 Santa Fe
+RODADA 7
+Universidad Católica 3x1 Libertad
+Universitario 2x1 Cruzeiro
+Mirassol 2x2 Santa Fe
+Coquimbo Unido 1x1 Independiente Medellín
+Toluca 3x0 Inter Miami
+Cerro Porteño 1x2 Boca Juniors
+Rosario Central 1x0 Peñarol
+Corinthians 2x1 LDU
+Palmeiras 2x0 Sporting Cristal
+Platense 0x3 Flamengo
+Independiente del Valle 3x1 Nashville
+Fluminense 2x1 Club América
+Universidad Central 2x1 Lanús
+Cruz Azul 2x0 Estudiantes
+Nacional 3x0 Always Ready
+Alajuelense 2x1 Bolívar
+Independiente Rivadavia 1x1 Real España
+Vancouver Whitecaps 2x1 Caracas
+RODADA 8
+Santa Fe 1x1 Caracas
+Peñarol 2x1 Cerro Porteño
+Cruzeiro 2x0 Independiente del Valle
+LDU 3x0 Coquimbo Unido
+Fluminense 2x2 Independiente Rivadavia
+Always Ready 1x0 Lanús
+Flamengo 3x1 Universidad Central
+Palmeiras 6x0 Alajuelense
+Boca Juniors 2x0 Inter Miami
+Estudiantes 3x0 Vancouver Whitecaps
+Rosario Central 2x1 Independiente Medellín
+Sporting Cristal 2x1 Bolívar
+Platense 1x1 Nacional
+Universidad Católica 2x1 Cruz Azul
+Club América 2x1 Libertad
+Real España 1x0 Corinthians
+Toluca 3x1 Universitario
+Mirassol 2x2 Nashville

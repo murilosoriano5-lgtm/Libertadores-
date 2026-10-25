@@ -21,3 +21,10 @@ Gols ~ Poisson, com média 1,45·e^d (mandante) e 1,15·e^-d (visitante), onde `
 - Cada jogo é uma "aresta" entre dois times; uma rodada é um conjunto de jogos em que nenhum time repete (coloração de arestas com 8 cores). Usamos backtracking que escolhe sempre o jogo com menos rodadas possíveis, com limite de passos e reinício.
 - Como as 8 rodadas podem ser embaralhadas, uma busca local escolhe a ordem com menos sequências de 3+ jogos seguidos em casa ou fora.
 - Rodar 20 divisões diferentes e ficar com a melhor leva poucos segundos. Não é garantido zerar as sequências longas.
+
+## 6. Mata-mata (`knockout.py`)
+- Entram os 16 primeiros. As 8 séries das oitavas seguem `ROUND_OF_16` (1x16, 8x9, 3x14, 5x12 | 2x15, 7x10, 4x13, 6x11).
+- Em cada série, o pior colocado na tabela joga a ida em casa e o melhor joga a volta em casa.
+- `next_round` cruza os vencedores em pares na ordem da chave (vencedor de 1x16 contra vencedor de 8x9 etc.), então os lados A e B só se encontram na final.
+- Pênaltis aparecem nos dados como `1(3)x0(5)` (placar da volta e, entre parênteses, os pênaltis de cada time).
+- O teste `tests/test_knockout.py` reproduz o chaveamento da edição 2026 a partir dos resultados.

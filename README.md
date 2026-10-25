@@ -9,6 +9,8 @@ Simulador da fase de liga da Libertadores no **formato suíço**: 36 times, 4 po
 - Nunca enfrenta time do mesmo país.
 - Atual campeão (Flamengo) e campeão da Sul-Americana (Lanús) entram no Pote 1.
 - Classificação: pontos > saldo de gols > gols marcados > nome.
+- **Mata-mata:** os 16 primeiros avançam. Oitavas, quartas e semifinais em ida e volta (o melhor colocado na tabela decide em casa); final em jogo único. Decisão por pênaltis após empate no agregado.
+- Chave das oitavas (posição na tabela): 1x16, 8x9, 3x14, 5x12 (lado A) e 2x15, 7x10, 4x13, 6x11 (lado B). Os lados só se encontram na final.
 
 ## Uso
 ```bash
@@ -25,10 +27,16 @@ Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio
 | `libertaforss/teams.py` | Times, países e potes |
 | `libertaforss/draw.py` | Sorteio com restrições (backtracking) |
 | `libertaforss/schedule.py` | Divisão em 8 rodadas de 18 jogos |
+| `libertaforss/knockout.py` | Chaveamento do mata-mata |
 | `libertaforss/simulate.py` | Gols (Poisson) e tabela |
-| `tests/test_draw.py` | Valida as regras do sorteio |
+| `tests/` | Testes do sorteio, das rodadas e do mata-mata |
+| `data/` | Edição 2026 jogada: resultados da fase de liga e do mata-mata (Palmeiras campeão) |
 | `docs/` | Documentação detalhada e material de estudo |
 
+## Edição 2026 (exemplo jogado)
+Campeão: **Palmeiras** 2x1 Toluca (final). A tabela da fase de liga foi conferida contra os 144 resultados em `data/edicao_2026_resultados.txt` (pontos, V/E/D, saldo e ordem batem; saldo do Caracas: -7).
+
 ## Pendente / a definir
-- Quantos avançam e como é o mata-mata (ex.: top 8 direto às oitavas, 9º–24º em playoff, como na Champions?).
+- O mata-mata ainda não é simulado automaticamente (apenas o chaveamento está em código).
 - Ratings reais dos times (hoje a força depende só do pote).
+- Confirmar a sigla "(PR)" na final (entendida como prorrogação).
