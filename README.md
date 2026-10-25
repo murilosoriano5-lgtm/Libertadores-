@@ -17,6 +17,7 @@ Simulador da fase de liga da Libertadores no **formato suíço**: 36 times, 4 po
 python3 -m libertaforss draw --seed 1       # jogos de cada time
 python3 -m libertaforss rounds --seed 1     # jogos divididos em 8 rodadas
 python3 -m libertaforss simulate --seed 1   # resultados e tabela
+python3 -m libertaforss h2h Palmeiras Toluca  # histórico de confrontos
 python3 -m unittest discover -s tests       # testes
 ```
 Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio.
@@ -28,6 +29,8 @@ Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio
 | `libertaforss/draw.py` | Sorteio com restrições (backtracking) |
 | `libertaforss/schedule.py` | Divisão em 8 rodadas de 18 jogos |
 | `libertaforss/knockout.py` | Chaveamento do mata-mata |
+| `libertaforss/history.py` | Histórico de confrontos (head-to-head) |
+| `tools/gerar_historico.py` | Gera `data/historico.csv` a partir dos arquivos de cada edição |
 | `libertaforss/simulate.py` | Gols (Poisson) e tabela |
 | `tests/` | Testes do sorteio, das rodadas e do mata-mata |
 | `data/` | Edição 2026 jogada: resultados da fase de liga e do mata-mata (Palmeiras campeão) |
@@ -36,7 +39,13 @@ Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio
 ## Edição 2026 (exemplo jogado)
 Campeão: **Palmeiras** 2x1 Toluca (final). A tabela da fase de liga foi conferida contra os 144 resultados em `data/edicao_2026_resultados.txt` (pontos, V/E/D, saldo e ordem batem; saldo do Caracas: -7).
 
+## Histórico de confrontos
+`data/historico.csv` guarda todos os jogos de todas as edições (colunas: edição, fase, rodada, mandante, gols, visitante, pênaltis, prorrogação, sede). Por enquanto só a edição 2026. `h2h A B` lista os jogos entre dois times e o resumo de vitórias, empates e gols.
+- **PR = prorrogação** (coluna `prorrogacao`).
+- **Finais têm sede única** (coluna `sede`); a primeira, 2026, foi em **Montevidéu**.
+- Jogo decidido nos pênaltis conta como empate no resumo; os pênaltis ficam em colunas à parte.
+- Nova edição: crie `data/edicao_AAAA_resultados.txt` e `data/edicao_AAAA_mata_mata.txt`, inclua a sede em `FINAL_VENUES` e rode `python3 tools/gerar_historico.py 2026 AAAA`.
+
 ## Pendente / a definir
 - O mata-mata ainda não é simulado automaticamente (apenas o chaveamento está em código).
 - Ratings reais dos times (hoje a força depende só do pote).
-- Confirmar a sigla "(PR)" na final (entendida como prorrogação).

@@ -1,6 +1,7 @@
 import argparse
 
 from .draw import generate_fixtures
+from .history import describe, head_to_head, load_history
 from .schedule import split_rounds
 from .simulate import simulate
 from .teams import TEAMS
@@ -8,9 +9,17 @@ from .teams import TEAMS
 
 def main():
     ap = argparse.ArgumentParser(prog="libertaforss")
-    ap.add_argument("command", choices=["draw", "rounds", "simulate"])
+    ap.add_argument("command", choices=["draw", "rounds", "simulate", "h2h"])
     ap.add_argument("--seed", type=int, default=None)
+    ap.add_argument("teams", nargs="*", help="h2h: os dois times")
     args = ap.parse_args()
+    if args.command == "h2h":
+        a, b = args.teams
+        played, wins, goals = head_to_head(a, b, load_history())
+        for g in played:
+            print(describe(g))
+        print(f"{a}: {wins[a]}V | empates: {wins['empates']} | {b}: {wins[b]}V | gols {goals[a]}x{goals[b]}")
+        return
     fixtures = generate_fixtures(TEAMS, args.seed)
 
     if args.command == "draw":

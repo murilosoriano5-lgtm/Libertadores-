@@ -28,3 +28,9 @@ Gols ~ Poisson, com média 1,45·e^d (mandante) e 1,15·e^-d (visitante), onde `
 - `next_round` cruza os vencedores em pares na ordem da chave (vencedor de 1x16 contra vencedor de 8x9 etc.), então os lados A e B só se encontram na final.
 - Pênaltis aparecem nos dados como `1(3)x0(5)` (placar da volta e, entre parênteses, os pênaltis de cada time).
 - O teste `tests/test_knockout.py` reproduz o chaveamento da edição 2026 a partir dos resultados.
+
+## 7. Histórico de confrontos (`history.py`)
+- Formato: um CSV com uma linha por jogo, assim o mesmo arquivo serve para consultas, planilhas e futuras estatísticas.
+- `head_to_head(a, b, games)` filtra os jogos entre os dois times (em qualquer mando) e soma vitórias, empates e gols. Pênaltis não alteram o placar.
+- `tools/gerar_historico.py` converte os arquivos de texto de cada edição, normalizando nomes (ex.: "Penarol" vira "Peñarol").
+- A sede da final é um dado por edição (`FINAL_VENUES`). 2026: Montevidéu.
