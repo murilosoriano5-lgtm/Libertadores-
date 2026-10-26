@@ -4,13 +4,14 @@ from .draw import generate_fixtures
 from .history import all_time_ranking, describe, head_to_head, load_history
 from .schedule import split_rounds
 from .simulate import simulate
-from .teams import TEAMS
+from .teams import EDITIONS, LATEST
 
 
 def main():
     ap = argparse.ArgumentParser(prog="libertaforss")
     ap.add_argument("command", choices=["draw", "rounds", "simulate", "h2h", "ranking"])
     ap.add_argument("--seed", type=int, default=None)
+    ap.add_argument("--edition", choices=sorted(EDITIONS), default=LATEST)
     ap.add_argument("teams", nargs="*", help="h2h: os dois times")
     args = ap.parse_args()
     if args.command == "ranking":
@@ -26,6 +27,7 @@ def main():
             print(describe(g))
         print(f"{a}: {wins[a]}V | empates: {wins['empates']} | {b}: {wins[b]}V | gols {goals[a]}x{goals[b]}")
         return
+    TEAMS = EDITIONS[args.edition]
     fixtures = generate_fixtures(TEAMS, args.seed)
 
     if args.command == "draw":

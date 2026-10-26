@@ -14,7 +14,7 @@ Simulador da fase de liga da Libertadores no **formato suíço**: 36 times, 4 po
 
 ## Uso
 ```bash
-python3 -m libertaforss draw --seed 1       # jogos de cada time
+python3 -m libertaforss draw --seed 1       # jogos de cada time (use --edition 2026 para a anterior)
 python3 -m libertaforss rounds --seed 1     # jogos divididos em 8 rodadas
 python3 -m libertaforss simulate --seed 1   # resultados e tabela
 python3 -m libertaforss h2h Palmeiras Toluca  # histórico de confrontos
@@ -22,6 +22,11 @@ python3 -m libertaforss ranking             # ranking histórico (todas as ediç
 python3 -m unittest discover -s tests       # testes
 ```
 Sem dependências externas (Python 3.10+). O mesmo `--seed` gera o mesmo sorteio.
+
+## Edições
+Os times de cada edição ficam em `libertaforss/teams.py` (`EDITIONS`). Os comandos usam a mais recente (2027) ou `--edition 2026`.
+- **2027**: Palmeiras (campeão) e Chivas (campeão da Sul-Americana) no Pote 1. Sorteio e rodadas (seed 2027) em `docs/SORTEIO_2027_SEED_2027.txt` e `docs/RODADAS_2027_SEED_2027.txt`.
+- **2026**: usada nos arquivos `docs/*_SEED_2026.txt` e em `data/`.
 
 ## Estrutura
 | Arquivo | Função |

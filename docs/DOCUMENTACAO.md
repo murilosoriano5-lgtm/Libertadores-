@@ -35,3 +35,8 @@ Gols ~ Poisson, com média 1,45·e^d (mandante) e 1,15·e^-d (visitante), onde `
 - `tools/gerar_historico.py` converte os arquivos de texto de cada edição, normalizando nomes (ex.: "Penarol" vira "Peñarol").
 - A sede da final é um dado por edição (`FINAL_VENUES`). 2026: Montevidéu.
 - `all_time_ranking(games)` acumula J/V/E/D/gols/pontos por time em todos os jogos do CSV (liga e mata-mata). Títulos e vices vêm da fase "Final". O critério de ordenação é uma escolha de projeto e pode mudar (ex.: títulos primeiro).
+
+## 8. Edições (`teams.py`)
+- Cada edição é um dicionário de potes -> lista (nome, país). Os nomes devem ser idênticos entre edições para o histórico somar corretamente (ex.: "Peñarol", "Universitario", "Rosario Central").
+- 2027: Chivas conta como México (MEX) e Forge como Canadá (CAN). O campeão da Libertadores (Palmeiras) e o da Sul-Americana (Chivas) vão ao Pote 1 e ocupam a vaga do país. Brasil tem 6 times (5 vagas + campeão) e o México 4.
+- Ao incluir uma edição, o teste `test_draw` valida sozinho: 36 times distintos, potes de 9, 144 jogos e regras do sorteio.

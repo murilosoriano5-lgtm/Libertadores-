@@ -9,7 +9,7 @@ class Team:
     pot: int
 
 
-_POTS = {
+_POTS_2026 = {
     1: [("Flamengo", "BRA"), ("Lanús", "ARG"), ("Palmeiras", "BRA"),
         ("Boca Juniors", "ARG"), ("Estudiantes", "ARG"), ("Peñarol", "URU"),
         ("LDU", "ECU"), ("Independiente del Valle", "ECU"), ("Fluminense", "BRA")],
@@ -26,4 +26,26 @@ _POTS = {
         ("Club América", "MEX"), ("Cruz Azul", "MEX"), ("Universidad Central", "VEN")],
 }
 
-TEAMS = [Team(n, c, p) for p, ts in _POTS.items() for n, c in ts]
+_POTS_2027 = {
+    1: [("Palmeiras", "BRA"), ("Chivas", "MEX"), ("Fluminense", "BRA"),
+        ("Flamengo", "BRA"), ("Boca Juniors", "ARG"), ("River Plate", "ARG"),
+        ("Estudiantes", "ARG"), ("Peñarol", "URU"), ("Atlético Mineiro", "BRA")],
+    2: [("Cruzeiro", "BRA"), ("Athletico", "BRA"), ("Rosario Central", "ARG"),
+        ("Colo-Colo", "CHI"), ("Cerro Porteño", "PAR"), ("Independiente del Valle", "ECU"),
+        ("LDU", "ECU"), ("Atlético Nacional", "COL"), ("Toluca", "MEX")],
+    3: [("Montevideo City Torque", "URU"), ("América de Cali", "COL"), ("Bolívar", "BOL"),
+        ("Club América", "MEX"), ("Cruz Azul", "MEX"), ("Olimpia", "PAR"),
+        ("Universidad Católica", "CHI"), ("Universitario", "PER"), ("Always Ready", "BOL")],
+    4: [("Forge", "CAN"), ("Inter Miami", "USA"), ("Nashville", "USA"),
+        ("Los Angeles FC", "USA"), ("Alajuelense", "CRC"), ("Belgrano", "ARG"),
+        ("Caracas", "VEN"), ("Deportivo Táchira", "VEN"), ("Alianza Lima", "PER")],
+}
+
+
+def _build(pots):
+    return [Team(n, c, p) for p, ts in pots.items() for n, c in ts]
+
+
+EDITIONS = {"2026": _build(_POTS_2026), "2027": _build(_POTS_2027)}
+LATEST = "2027"
+TEAMS = EDITIONS[LATEST]

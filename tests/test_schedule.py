@@ -2,7 +2,9 @@ import unittest
 
 from libertaforss.draw import generate_fixtures
 from libertaforss.schedule import split_rounds
-from libertaforss.teams import TEAMS
+from libertaforss.teams import EDITIONS
+
+TEAMS = EDITIONS["2026"]
 
 
 class ScheduleTest(unittest.TestCase):

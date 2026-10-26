@@ -1,0 +1,160 @@
+
+RODADA 1
+  Chivas x Fluminense
+  Estudiantes x Flamengo
+  Cerro Porteño x Colo-Colo
+  LDU x Rosario Central
+  Toluca x Independiente del Valle
+  Olimpia x Always Ready
+  Alajuelense x Inter Miami
+  Belgrano x Los Angeles FC
+  River Plate x Athletico
+  Boca Juniors x Bolívar
+  Peñarol x Universidad Católica
+  Atlético Mineiro x América de Cali
+  Palmeiras x Alianza Lima
+  Atlético Nacional x Cruz Azul
+  Cruzeiro x Caracas
+  Club América x Forge
+  Universitario x Nashville
+  Deportivo Táchira x Montevideo City Torque
+
+RODADA 2
+  Flamengo x Chivas
+  Atlético Mineiro x Peñarol
+  Colo-Colo x Athletico
+  Always Ready x Universitario
+  Boca Juniors x Cerro Porteño
+  LDU x River Plate
+  Palmeiras x Montevideo City Torque
+  Fluminense x Belgrano
+  Caracas x Estudiantes
+  Rosario Central x Universidad Católica
+  Olimpia x Cruzeiro
+  Toluca x Inter Miami
+  Nashville x Independiente del Valle
+  Alajuelense x Atlético Nacional
+  América de Cali x Deportivo Táchira
+  Bolívar x Alianza Lima
+  Los Angeles FC x Club América
+  Forge x Cruz Azul
+
+RODADA 3
+  Boca Juniors x Palmeiras
+  River Plate x Atlético Mineiro
+  Cruzeiro x Cerro Porteño
+  Athletico x LDU
+  Atlético Nacional x Toluca
+  América de Cali x Club América
+  Nashville x Forge
+  Universitario x Peñarol
+  Chivas x Caracas
+  Flamengo x Los Angeles FC
+  Estudiantes x Deportivo Táchira
+  Inter Miami x Fluminense
+  Independiente del Valle x Bolívar
+  Always Ready x Rosario Central
+  Montevideo City Torque x Colo-Colo
+  Cruz Azul x Alajuelense
+  Universidad Católica x Belgrano
+  Alianza Lima x Olimpia
+
+RODADA 4
+  Cruz Azul x Olimpia
+  Forge x Deportivo Táchira
+  Atlético Nacional x Chivas
+  Rosario Central x Flamengo
+  Colo-Colo x Boca Juniors
+  Cruzeiro x Estudiantes
+  Independiente del Valle x Atlético Mineiro
+  Fluminense x Always Ready
+  Club América x River Plate
+  Peñarol x Nashville
+  Belgrano x Palmeiras
+  Athletico x Montevideo City Torque
+  Bolívar x Toluca
+  Cerro Porteño x Los Angeles FC
+  LDU x Alianza Lima
+  Alajuelense x América de Cali
+  Caracas x Universidad Católica
+  Inter Miami x Universitario
+
+RODADA 5
+  Montevideo City Torque x Universidad Católica
+  Caracas x Nashville
+  Palmeiras x Atlético Nacional
+  Chivas x Rosario Central
+  Peñarol x Cruzeiro
+  Olimpia x Fluminense
+  Cruz Azul x Estudiantes
+  Boca Juniors x Forge
+  River Plate x Inter Miami
+  Atlético Mineiro x Alajuelense
+  Alianza Lima x Flamengo
+  Colo-Colo x Always Ready
+  América de Cali x Cerro Porteño
+  Club América x Independiente del Valle
+  Universitario x LDU
+  Los Angeles FC x Athletico
+  Deportivo Táchira x Toluca
+  Belgrano x Bolívar
+
+RODADA 6
+  Los Angeles FC x Alajuelense
+  Deportivo Táchira x Alianza Lima
+  Estudiantes x Independiente del Valle
+  Toluca x Fluminense
+  Athletico x Peñarol
+  Chivas x Olimpia
+  Flamengo x Club América
+  River Plate x Cruz Azul
+  Always Ready x Palmeiras
+  Universidad Católica x Boca Juniors
+  Bolívar x Atlético Mineiro
+  Cruzeiro x América de Cali
+  Cerro Porteño x Universitario
+  Rosario Central x Forge
+  Colo-Colo x Nashville
+  Atlético Nacional x Belgrano
+  Inter Miami x LDU
+  Montevideo City Torque x Caracas
+
+RODADA 7
+  Palmeiras x River Plate
+  Fluminense x Boca Juniors
+  Peñarol x Estudiantes
+  Independiente del Valle x Atlético Nacional
+  Bolívar x América de Cali
+  Universidad Católica x Cruz Azul
+  Universitario x Montevideo City Torque
+  Inter Miami x Caracas
+  Flamengo x Colo-Colo
+  Deportivo Táchira x Chivas
+  Nashville x Atlético Mineiro
+  LDU x Club América
+  Toluca x Olimpia
+  Athletico x Alajuelense
+  Belgrano x Cruzeiro
+  Alianza Lima x Rosario Central
+  Forge x Cerro Porteño
+  Always Ready x Los Angeles FC
+
+RODADA 8
+  Rosario Central x Cruzeiro
+  Club América x Bolívar
+  Alianza Lima x Belgrano
+  Fluminense x LDU
+  Atlético Mineiro x Toluca
+  Cerro Porteño x Palmeiras
+  Estudiantes x Universitario
+  América de Cali x Chivas
+  Montevideo City Torque x Flamengo
+  Alajuelense x Boca Juniors
+  Forge x River Plate
+  Los Angeles FC x Peñarol
+  Cruz Azul x Athletico
+  Universidad Católica x Atlético Nacional
+  Independiente del Valle x Deportivo Táchira
+  Caracas x Colo-Colo
+  Olimpia x Inter Miami
+  Nashville x Always Ready
